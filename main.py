@@ -43,4 +43,4 @@ async def w(ctx):
     WorkWhile = False
 
 
-bot.run('MTEyMTAyNDU1MjY1NTQwOTIxMw.GOGyzv.Q6shB4Xu2UrGNZ5IdDvh58BVdYy9apodhFg3fs')
+bot.run('MTVfs')
