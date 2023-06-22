@@ -124,7 +124,7 @@ async def start_enchant(ctx):
             await asyncio.sleep(1)
 
     else:
-        await ctx.send('Снегур, у тебя не достаточно прав!')
+        await ctx.send('Снегур, у тебя недостаточно прав!')
 
 
 @bot.command()
@@ -144,7 +144,7 @@ async def stop_enchant(ctx):
             await ctx.send("КАК???")
 
     else:
-        await ctx.send('Снегур, у тебя не достаточно прав!')
+        await ctx.send('Снегур, у тебя недостаточно прав!')
 
 
 bot.run('myTOKENO')
