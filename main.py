@@ -1,4 +1,4 @@
-import keyboard
+mport keyboard
 import discord
 import asyncio
 import mouse
@@ -9,7 +9,7 @@ from art import tprint
 
 async def auto_enchant(sleep_kb, sleep_ms):
     # Вывод в консоль информации
-    print(magenta + f'{n}Цикл работает\n',
+    print(magenta + '\n' * 11 + 'Цикл работает\n',
           blue + "Основные значения"'\033[34;49;1m' + ":\n", sep='')
     print(blue_bold + f'auto_enchant(sleep_kb = {sleep_kb}, sleep_ms = {sleep_ms})\n',
           blue_bold + f'Зачаровано кирок - {str(enchanted_pickaxes)}\n',
@@ -94,7 +94,6 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 work_while = False
 work_channel = None
 enchanted_pickaxes = 0
-n = '\n' * 11
 
 # Цвета текста
 blue = '\033[34;49m'
