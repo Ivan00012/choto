@@ -1,4 +1,4 @@
-mport keyboard
+import keyboard
 import discord
 import asyncio
 import mouse
